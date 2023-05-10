@@ -16,9 +16,9 @@ export const homeSlice = createSlice({
         state.genres = action.payload;
     },
   },
-})
+});
 
 
-export const { getApiConfiguration, getGenres } = homeSlice.actions
+export const { getApiConfiguration, getGenres } = homeSlice.actions;
 
-export default homeSlice.reducer
+export default homeSlice.reducer;
