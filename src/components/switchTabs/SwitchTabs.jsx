@@ -17,15 +17,15 @@ const SwitchTabs = ({ data, onTabChange }) => {
   return (
     <div className="switchingTabs">
         <div className="tabItems">
-            { data.map((tab, index) =>{
-                <span 
+            { data.map((tab, index) =>
+                (<span 
                     key={index} 
                     className = {`tabItem ${selectedTab === index ? "active" : "" }`} 
                     onClick={() => activeTab(tab, index)}>
                     {tab}
                 </span>
-            })}
-            <span className="movingBg" style={{left}}/>
+            ))}
+            <span className="movingBg" style={{ left }}/>
         </div>
     </div>
   );
