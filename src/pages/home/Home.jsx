@@ -12,7 +12,6 @@ const Home = () => {
     <div className='homePage'>
       <HeroBanner/>
       <Trending/>
-      
       <Popular/>
       <TopRated/>
     </div>
