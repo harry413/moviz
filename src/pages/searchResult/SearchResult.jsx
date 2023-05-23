@@ -8,7 +8,7 @@ import ContentWrapper from '../../components/contentWrapper/ContentWrapper';
 import Spinner from "../../components/spinner/Spinner";
 import MovieCard from "../../components/movieCard/MovieCard";
 import noResults from "../../assets/no-results.png";
-import Img from '../../components/lazyLoadingImage/Img';
+
 
 
 const SearchResult = () => {
@@ -72,8 +72,7 @@ const SearchResult = () => {
             </>
           ) : (
             <span className="resultNotFound">
-              Sorry, Page Not Found!!!!!
-              <Img src={noResults}  className="img"/> 
+              Sorry, Page Not Found!!!!! 
             </span>
           )}
         </ContentWrapper>
