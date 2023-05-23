@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./contentwrapper.scss";
+import "./contentWrapper.scss";
 
 const ContentWrapper = ({ children }) => {
     return <div className="contentWrapper">{children}</div>;
