@@ -31,7 +31,7 @@ const HeroBanner = () => {
   return (
     <div className="heroBanner">
         {!loading && <div className="backdrop_img">
-            <Img src={ background }/>
+            <Img src={ background } className={lazy_load_image-background}/>
         </div>}
 
         <div className="opacity_layer"></div>
