@@ -33,7 +33,7 @@ const VideosSection = ({ data, loading }) => {
                                 setShow(true);
                             }}>
                                 <div className="videoThumbnail">
-                                    <Img src={`https://img.youtube.com/vi/${video.key}/mqdefault.jpg`} className={img}/>
+                                    <Img src={`https://img.youtube.com/vi/${video.key}/mqdefault.jpg`}/>
                                     <PlayIcon/>
                                 </div>
                                 <div className="videoTitle">

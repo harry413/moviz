@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 
 import "./movieCard.scss";
-import Img from "../lazyLoadingImage/Img";
+import Img from "../lazyLoadImage/Img";
 import Rating from "../rating/Rating";
 import Genres from "../genres/Genres";
 import PosterFallback from "../../assets/no-poster.png";
