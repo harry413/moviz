@@ -5,8 +5,10 @@ import { useSelector } from 'react-redux';
 
 import './heroBanner.scss'
 
-import  ContentWrapper  from '../../../components/contentWrapper/ContentWrapper';
+
 import Img from '../../../components/lazyLoadingImage/Img';
+import  ContentWrapper  from '../../../components/contentWrapper/ContentWrapper';
+
 
 
 
