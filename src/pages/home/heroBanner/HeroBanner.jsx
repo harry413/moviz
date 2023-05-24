@@ -6,7 +6,7 @@ import { useSelector } from 'react-redux';
 import './heroBanner.scss'
 
 import  ContentWrapper  from '../../../components/contentWrapper/ContentWrapper';
-import Img from '../../../components/lazyLoadingImage/Img';
+import img from '../../../components/lazyLoadingImage/Img';
 
 
 
@@ -32,7 +32,7 @@ const HeroBanner = () => {
   return (
     <div className="heroBanner">
         {!loading && <div className="backdrop_img">
-            <Img src={ background }/>
+            <img src={ background }/>
         </div>}
 
         <div className="opacity_layer"></div>
@@ -53,7 +53,6 @@ const HeroBanner = () => {
                 </div>
                 </div>
         </ContentWrapper>
-        
     </div>
   )
 }
