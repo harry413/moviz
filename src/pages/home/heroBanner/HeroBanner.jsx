@@ -10,6 +10,7 @@ import Img from '../../../components/lazyLoadingImage/Img';
 
 
 
+
 const HeroBanner = () => {
         const [background, setBackground] = useState(" ");
         const [query, setQuery] = useState("");
@@ -31,7 +32,7 @@ const HeroBanner = () => {
   return (
     <div className="heroBanner">
         {!loading && <div className="backdrop_img">
-            <Img src={ background } className={Img}/>
+            <Img src={ background }/>
         </div>}
 
         <div className="opacity_layer"></div>
